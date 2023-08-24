@@ -1,0 +1,197 @@
+.email2,
+.email3 {
+	position: relative;
+	display: inline-block;
+	width: 185px;
+	height: 35px;
+	flex-shrink: 0;
+}
+.email3 {
+	border: 0;
+	font-family: Inter;
+	font-size: 21px;
+	background-color: transparent;
+	color: #331f1f;
+	text-align: left;
+	width: 235px;
+}
+.email1 {
+	position: absolute;
+	top: 0;
+	left: calc(50% - 220px);
+	border-bottom: 1.5px solid rgba(51, 31, 31, 0.6);
+	box-sizing: border-box;
+	width: 440px;
+	overflow: hidden;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+}
+.password1,
+.password2 {
+	position: relative;
+	display: inline-block;
+	width: 185px;
+	height: 31px;
+	flex-shrink: 0;
+}
+.password2 {
+	border: 0;
+	font-family: Inter;
+	font-size: 21px;
+	background-color: transparent;
+	color: #331f1f;
+	text-align: left;
+	width: 235px;
+}
+.password {
+	top: 55px;
+	left: calc(50% - 220px);
+	border-bottom: 1.5px solid rgba(51, 31, 31, 0.6);
+	box-sizing: border-box;
+	width: 440px;
+	overflow: hidden;
+	display: flex;
+	flex-direction: row;
+	align-items: flex-start;
+	justify-content: space-between;
+}
+.login1,
+.login2,
+.password {
+	position: absolute;
+}
+.login2 {
+	top: 16px;
+	left: 68.5px;
+	font-size: 1.31rem;
+	font-family: Inter;
+	color: #331f1f;
+	text-align: center;
+}
+.login1 {
+	cursor: pointer;
+	border: 2px solid rgba(51, 31, 31, 0.5);
+	padding: 0;
+	background-color: rgba(217, 217, 217, 0.35);
+	top: 65%;
+	left: calc(50% - 94px);
+	border-radius: 20px;
+	backdrop-filter: blur(50px);
+	box-sizing: border-box;
+	width: 189px;
+	height: 56px;
+	overflow: hidden;
+}
+.dont-have-an {
+	text-decoration: none;
+	position: absolute;
+	top: 87%;
+	left: calc(50% - 145px);
+	font-size: 15px;
+	letter-spacing: 0.04em;
+	line-height: 150%;
+	color: inherit;
+	text-align: center;
+}
+.login-form {
+	top: 40%;
+	left: calc(50% - 220px);
+	width: 440px;
+	height: 292px;
+}
+.body4,
+.login-form,
+.login3 {
+	position: absolute;
+}
+.login3 {
+	top: 56px;
+	left: calc(50% - 88px);
+	font-size: 4.4rem;
+	font-family: "Inria Serif";
+	background: linear-gradient(
+		90.12deg,
+		#2e1e19 0.18%,
+		rgba(100, 66, 66, 0.87) 66.15%,
+		rgba(138, 98, 98, 0.85)
+	);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+.body4 {
+	top: 48px;
+	left: 55%;
+	background-color: rgba(244, 243, 243, 0.35);
+	backdrop-filter: blur(50px);
+	width: 560px;
+	height: 100vh;
+	text-align: left;
+	font-size: 1.32rem;
+	color: #331f1f;
+	font-family: Inter;
+}
+.vintage-verb4 {
+	margin: 0;
+	font-size: inherit;
+	font-weight: 400;
+	font-family: inherit;
+}
+.about-us4,
+.vintage-verb4 {
+	position: relative;
+}
+.about-us4,
+.sign-up2 {
+	text-decoration: none;
+	color: inherit;
+}
+.login4,
+.sign-up2 {
+	position: relative;
+	cursor: pointer;
+}
+.button-section4,
+.navbar-l1 {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+}
+.button-section4 {
+	width: 445px;
+	font-size: 20px;
+	font-family: Inter;
+}
+.navbar-l1 {
+	position: absolute;
+	top: 0;
+	left: 0;
+	background-color: rgba(187, 188, 178, 0.45);
+	backdrop-filter: blur(30px);
+	width: 100%;
+	overflow: hidden;
+	padding: 12px 80px;
+	box-sizing: border-box;
+}
+.login-page {
+	position: relative;
+	width: 100%;
+	height: 100vh;
+	overflow: auto;
+	background-image: url(/public/login-page@3x.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: top;
+	text-align: left;
+	font-size: 22px;
+	color: #331f1f;
+	font-family: "Inria Serif";
+}
+
+.error-message {
+	position: absolute;
+	top: -50px;
+	left: calc(50% - 140px);
+}

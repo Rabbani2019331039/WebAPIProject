@@ -1,0 +1,81 @@
+@keyframes slide-in-left {
+	0% {
+		transform: translateX(-200px);
+		opacity: 0;
+	}
+	to {
+		transform: translateX(0);
+		opacity: 1;
+	}
+}
+.confirm {
+	position: relative;
+	font-size: 15px;
+	font-family: Inter;
+	color: #331f1f;
+	text-align: left;
+}
+.confirm-button {
+	cursor: pointer;
+	border: 0;
+	padding: 7px 54px;
+	background-color: #d9d9d9;
+	position: absolute;
+	top: 253px;
+	left: 111px;
+	border-radius: 18px;
+	/* display: flex; */
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+}
+.confirm-payment,
+.please-enter-your {
+	margin: 0;
+	position: absolute;
+	top: 42px;
+	left: calc(50% - 141px);
+	font-size: inherit;
+	font-weight: 400;
+	font-family: inherit;
+}
+.please-enter-your {
+	top: 113px;
+	left: calc(50% - 134px);
+	font-size: 22px;
+	font-family: Molengo;
+}
+.secret-code-input {
+	border: 0;
+	font-family: Inter;
+	font-size: 17px;
+	background-color: transparent;
+	position: absolute;
+	top: 181px;
+	left: calc(50% - 109px);
+	border-bottom: 1.5px solid rgba(255, 255, 255, 0.6);
+	box-sizing: border-box;
+	width: 219px;
+	height: 38.5px;
+}
+.conf-payment {
+	position: relative;
+	border-radius: 18px;
+	background-color: rgba(83, 73, 73, 0.2);
+	backdrop-filter: blur(40px);
+	border: 1px solid #fff;
+	box-sizing: border-box;
+	width: 390px;
+	height: 320px;
+	overflow: hidden;
+	opacity: 0;
+	max-width: 100%;
+	max-height: 100%;
+	text-align: left;
+	font-size: 35px;
+	color: #fff;
+	font-family: "Inria Serif";
+}
+.conf-payment.animate {
+	animation: 0.25s ease 0s 1 normal forwards slide-in-left;
+}

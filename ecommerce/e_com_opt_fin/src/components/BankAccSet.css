@@ -1,0 +1,100 @@
+.set-up-bank {
+  position: absolute;
+  
+  top: 38px;
+  left: 15%;
+}
+.account-name {
+  position: relative;
+  font-size: 17px;
+  font-family: Inter;
+  color: #fff;
+  text-align: left;
+  display: inline-block;
+  width: 140px;
+  flex-shrink: 0;
+}
+.account-name-input,
+.account-nmber-input {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.6);
+  box-sizing: border-box;
+  width: 310px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  padding: 20px 5px;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+.account-nmber-input {
+  border-bottom: 1.5px solid rgba(255, 255, 255, 0.6);
+}
+.secret-code {
+  border: 0;
+  font-family: Inter;
+  font-size: 17px;
+  background-color: transparent;
+  position: relative;
+  color: #fff;
+  text-align: left;
+}
+.secret-code-input1 {
+  border-bottom: 1.5px solid rgba(255, 255, 255, 0.6);
+  box-sizing: border-box;
+  width: 310px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  padding: 20px 12px;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+.done {
+  position: relative;
+  font-size: 15px;
+  font-family: Inter;
+  color: rgba(51, 31, 31, 0.5);
+  text-align: left;
+}
+.done-button {
+  cursor: pointer;
+  border: 0;
+  padding: 7px 54px;
+  background-color: #d9d9d9;
+  border-radius: 14px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.bank-acc-set,
+.bank-info-form {
+  box-sizing: border-box;
+  width: 394px;
+}
+.bank-info-form {
+  position: absolute;
+  top: 87px;
+  left: 0;
+  height: 287px;
+  display: flex;
+  flex-direction: column;
+  padding: 10px 10px;
+  align-items: center;
+  justify-content: space-between;
+}
+.bank-acc-set {
+  position: relative;
+  border-radius: 18px;
+  background-color: rgba(83, 73, 73, 0.2);
+  backdrop-filter: blur(40px);
+  border: 1px solid #fff;
+  height: 415px;
+  overflow: hidden;
+  max-width: 100%;
+  max-height: 100%;
+  text-align: left;
+  font-size: 30px;
+  color: #fff;
+  font-family: "Inria Serif";
+}
